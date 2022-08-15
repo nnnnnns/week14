@@ -44,9 +44,6 @@ function divideMe() {
   let b = document.getElementById('numberTwo');
   result = a.value / b.value;
   document.getElementById("result").value = result;
-  if (b.value == 0) {
-    alert('На ноль делить нельзя!');
-  }
 }
 
 function multiplyMe() {
